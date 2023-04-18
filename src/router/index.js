@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from '../views/HomeView.vue'
 
-
 const routes = [
   {
     path: "/",
@@ -25,6 +24,5 @@ const router = createRouter({
   },
 });
 
-//https://flagpedia.net/data/flags/icon/72x54/ca.png
 
 export default router;

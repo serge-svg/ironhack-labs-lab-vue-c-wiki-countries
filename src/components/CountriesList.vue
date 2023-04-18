@@ -8,6 +8,7 @@ Each link should be a vue-router-dom router-link which we will use to send the c
     <div class="row">
       <!-- Countries List (Bootstrap column) -->
       <div v-for="country in countries" :key="country._id">
+        <img :src="`https://flagpedia.net/data/flags/icon/72x54/${country.alpha2Code}.png`" alt="country flag"/>
         <RouterLink :to="`/list/${country.alpha3Code}`">{{ country.name }}</RouterLink>
       </div>
     </div>
