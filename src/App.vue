@@ -1,13 +1,11 @@
 <template>
-  <div class="app">
-
+  <div class="app bg-white">
+    <Navbar title="WikiCountries" />
+    <RouterView/>
   </div>
 </template>
 
-<script>
-
+<script setup>
+  import Navbar from './components/Navbar.vue';
 </script>
 
-<style>
-
-</style>
